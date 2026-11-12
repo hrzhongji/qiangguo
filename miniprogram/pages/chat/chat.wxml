@@ -1,0 +1,42 @@
+<view class="chat-page">
+  <view class="chat-head">
+    <view class="chat-avatar">AI</view>
+    <view>
+      <view class="who">{{vm.title}}</view>
+      <view class="who-sub">{{vm.hint}}</view>
+    </view>
+  </view>
+
+  <scroll-view class="chat-scroll" scroll-y scroll-into-view="{{intoView}}" scroll-with-animation>
+    <view class="msg {{item.role}}" wx:for="{{messages}}" wx:key="id" id="m{{index}}">
+      <view class="bubble">
+        <block wx:for="{{item.parts}}" wx:for-item="p">
+          <text class="{{p.bold ? 'bold' : ''}}">{{p.text}}</text>
+        </block>
+        <view class="source" wx:if="{{item.sources.length}}">来源：{{item.sources[0]}}</view>
+      </view>
+    </view>
+    <view class="typing" wx:if="{{sending}}">正在输入…</view>
+    <view id="bottom" style="height: 24rpx"></view>
+  </scroll-view>
+
+  <view class="lead-inline" wx:if="{{capture}}" bindtap="goLead">
+    <text>{{vm.leadTip}}</text><text>›</text>
+  </view>
+
+  <view class="chips" wx:if="{{chips.length}}">
+    <text class="chip" wx:for="{{chips}}" wx:key="*this" data-text="{{item}}" bindtap="sendChip">{{item}}</text>
+  </view>
+
+  <view class="composer">
+    <input
+      value="{{input}}"
+      bindinput="onInput"
+      bindconfirm="onSend"
+      confirm-type="send"
+      placeholder="{{vm.placeholder}}"
+      placeholder-class="ph"
+    />
+    <view class="send-btn {{sending ? 'disabled' : ''}}" bindtap="onSend">{{vm.send}}</view>
+  </view>
+</view>

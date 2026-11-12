@@ -1,0 +1,60 @@
+<view wx:if="{{done}}" class="success">
+  <view class="badge">✓</view>
+  <view class="s-title">{{vm.success}}</view>
+  <view class="amount">{{result.currency === 'USD' ? '$' : '¥'}}{{result.amount}}</view>
+  <view class="s-text">{{vm.orderId}}：{{result.id}}</view>
+  <view class="submit" style="margin-top: 40rpx" bindtap="backHome">{{vm.back}}</view>
+</view>
+
+<view wx:else>
+  <view class="form-card">
+    <view class="field">
+      <text class="label">{{vm.selectProduct}}</text>
+      <view
+        class="pay-product {{selectedIndex === index ? 'active' : ''}}"
+        wx:for="{{products}}"
+        wx:key="id"
+        data-index="{{index}}"
+        bindtap="selectProduct"
+      >
+        <view>
+          <view>{{item.name}}</view>
+          <view class="tip" style="margin-top: 2rpx">{{item.desc}}</view>
+        </view>
+        <text class="price">{{item.price}}</text>
+      </view>
+    </view>
+
+    <view class="field">
+      <text class="label">{{vm.channel}}</text>
+      <view class="mode-row">
+        <view
+          class="mode {{channelIndex === index ? 'active' : ''}}"
+          wx:for="{{channels}}"
+          wx:key="*this"
+          data-index="{{index}}"
+          bindtap="selectChannel"
+        >{{item}}</view>
+      </view>
+    </view>
+
+    <view class="field">
+      <text class="label">{{vm.name}}</text>
+      <input class="input" data-field="name" bindinput="onField" placeholder="张三" />
+    </view>
+    <view class="field">
+      <text class="label">{{vm.phone}}</text>
+      <input class="input" type="number" data-field="phone" bindinput="onField" placeholder="138 0000 0000" />
+    </view>
+
+    <view style="display: flex; align-items: flex-end; justify-content: space-between; margin: 6rpx 0 18rpx">
+      <text class="label" style="margin: 0">{{vm.amount}}</text>
+      <text class="amount" style="margin: 0">{{products[selectedIndex].price}}</text>
+    </view>
+
+    <view class="submit {{loading ? 'plain' : ''}}" bindtap="onSubmit">
+      {{loading ? '…' : vm.payNow}}
+    </view>
+    <view class="tip">{{vm.tip}}</view>
+  </view>
+</view>

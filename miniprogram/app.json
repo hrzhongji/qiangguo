@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chat/chat",
+    "pages/lead/lead",
+    "pages/booking/booking",
+    "pages/pay/pay",
+    "pages/share/share"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F1E7",
+    "navigationBarTitleText": "晒名片",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F6F1E7"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

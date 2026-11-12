@@ -1,0 +1,32 @@
+<view wx:if="{{done}}" class="success">
+  <view class="badge">✓</view>
+  <view class="s-title">{{vm.success}}</view>
+  <view class="s-text">{{vm.tip}}</view>
+  <view class="s-text" wx:if="{{result}}">意向评分 {{result.score}} · {{result.level}} 级</view>
+  <view class="submit" style="margin-top: 40rpx" bindtap="backHome">{{vm.back}}</view>
+</view>
+
+<view wx:else>
+  <view class="form-card">
+    <view class="field">
+      <text class="label">{{vm.name}}</text>
+      <input class="input" data-field="name" bindinput="onField" placeholder="张三" />
+    </view>
+    <view class="field">
+      <text class="label">{{vm.phone}}</text>
+      <input class="input" type="number" data-field="phone" bindinput="onField" placeholder="138 0000 0000" />
+    </view>
+    <view class="field">
+      <text class="label">{{vm.company}}</text>
+      <input class="input" data-field="company" bindinput="onField" placeholder="苏州精密制造" />
+    </view>
+    <view class="field">
+      <text class="label">{{vm.need}}</text>
+      <textarea class="textarea" data-field="need" bindinput="onField" placeholder="产线降本 / 能耗优化 / 出海交付…" />
+    </view>
+    <view class="submit {{loading ? 'plain' : ''}}" bindtap="onSubmit">
+      {{loading ? '…' : vm.submit}}
+    </view>
+    <view class="tip">{{vm.tip}}</view>
+  </view>
+</view>

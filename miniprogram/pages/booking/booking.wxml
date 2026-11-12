@@ -1,0 +1,72 @@
+<view wx:if="{{done}}" class="success">
+  <view class="badge">✓</view>
+  <view class="s-title">{{vm.success}}</view>
+  <view class="s-text">{{result.date}} {{result.slot}} · {{result.mode}}</view>
+  <view class="s-text">{{vm.done}}</view>
+  <view class="submit" style="margin-top: 40rpx" bindtap="backHome">{{vm.back}}</view>
+</view>
+
+<view wx:else>
+  <view class="form-card">
+    <view class="field">
+      <text class="label">{{vm.selectDate}}</text>
+      <scroll-view scroll-x class="date-row">
+        <view
+          class="date {{dateIndex === index ? 'active' : ''}}"
+          wx:for="{{days}}"
+          wx:key="date"
+          data-index="{{index}}"
+          bindtap="selectDate"
+        >
+          <view class="d-l">{{item.label}}</view>
+          <view class="d-d">{{item.date}}</view>
+        </view>
+      </scroll-view>
+    </view>
+
+    <view class="field">
+      <text class="label">{{vm.selectTime}}</text>
+      <view class="slots" wx:if="{{days.length}}">
+        <view
+          class="slot {{time === item.time ? 'active' : ''}} {{item.taken ? 'taken' : ''}}"
+          wx:for="{{days[dateIndex].slots}}"
+          wx:key="time"
+          data-time="{{item.time}}"
+          data-taken="{{item.taken}}"
+          bindtap="selectSlot"
+        >{{item.time}}</view>
+      </view>
+    </view>
+
+    <view class="field">
+      <text class="label">{{vm.mode}}</text>
+      <view class="mode-row">
+        <view
+          class="mode {{modeIndex === index ? 'active' : ''}}"
+          wx:for="{{modes}}"
+          wx:key="*this"
+          data-index="{{index}}"
+          bindtap="selectMode"
+        >{{item}}</view>
+      </view>
+    </view>
+
+    <view class="field">
+      <text class="label">{{vm.name}}</text>
+      <input class="input" data-field="name" bindinput="onField" placeholder="张三" />
+    </view>
+    <view class="field">
+      <text class="label">{{vm.phone}}</text>
+      <input class="input" type="number" data-field="phone" bindinput="onField" placeholder="138 0000 0000" />
+    </view>
+    <view class="field">
+      <text class="label">{{vm.company}}</text>
+      <input class="input" data-field="company" bindinput="onField" placeholder="公司名称" />
+    </view>
+
+    <view class="submit {{loading ? 'plain' : ''}}" bindtap="onSubmit">
+      {{loading ? '…' : vm.confirm}}
+    </view>
+    <view class="tip">{{vm.tip}}</view>
+  </view>
+</view>

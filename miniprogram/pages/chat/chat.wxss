@@ -1,0 +1,9 @@
+.chat-scroll {
+  width: 100%;
+  height: 0;
+  flex: 1;
+  box-sizing: border-box;
+}
+.ph {
+  color: #b6ada2;
+}

@@ -1,0 +1,187 @@
+<view class="page" wx:if="{{vm}}">
+  <view class="hero">
+    <view class="hero-glow"></view>
+    <view class="hero-top">
+      <view class="hero-brand">
+        <view class="logo-mark">
+          <view class="lm-sun"></view>
+          <view class="lm-card"></view>
+        </view>
+        <text class="wordmark">{{vm.brand}}</text>
+      </view>
+      <view class="hero-actions">
+        <view class="status-pill"><view class="dot"></view><text>{{vm.online}}</text></view>
+        <view class="lang-btn" bindtap="toggleLang">{{vm.langLabel}}</view>
+      </view>
+    </view>
+
+    <view class="hero-profile">
+      <view class="avatar-ring"><view class="avatar">{{vm.owner.avatar}}</view></view>
+      <view class="name">{{vm.owner.name}}</view>
+      <view class="job">{{vm.owner.title}}</view>
+      <view class="company">{{vm.owner.company}}</view>
+      <view class="tags">
+        <text class="tag" wx:for="{{vm.tags}}" wx:key="*this">{{item}}</text>
+      </view>
+    </view>
+
+    <view class="cta-row">
+      <view class="btn-primary" bindtap="goChat">{{vm.aiCta}}</view>
+      <view class="btn-ghost" bindtap="goShare">{{vm.share}}</view>
+      <view class="btn-ghost" bindtap="saveContact">{{vm.saveShort}}</view>
+    </view>
+
+    <view class="stats">
+      <view class="stat" wx:for="{{vm.stats}}" wx:key="l">
+        <view class="v">{{item.v}}</view>
+        <view class="l">{{item.l}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="quick-grid">
+    <view class="quick" wx:for="{{vm.quick}}" wx:key="key" data-key="{{item.key}}" bindtap="onQuick">
+      <view class="ico">{{item.ico}}</view>
+      <view class="lbl">{{item.label}}</view>
+    </view>
+  </view>
+
+  <view class="banner">{{vm.banner}}</view>
+
+  <view class="notice" wx:if="{{vm.former}}">
+    {{vm.former.text}}（{{vm.former.name}} → {{vm.former.owner}}）
+  </view>
+
+  <view class="tabs" id="contentTabs">
+    <view
+      class="tab {{tab === item.id ? 'active' : ''}}"
+      wx:for="{{vm.tabs}}"
+      wx:key="id"
+      data-id="{{item.id}}"
+      bindtap="switchTab"
+    >{{item.label}}</view>
+  </view>
+
+  <!-- 简介 -->
+  <view wx:if="{{tab === 'intro'}}">
+    <view class="section">
+      <view class="section-head">
+        <view class="section-title">{{vm.introTitle}}<text class="small">{{vm.introSmall}}</text></view>
+      </view>
+      <view class="bio">{{vm.bio}}</view>
+      <view class="highlights">
+        <view class="highlight" wx:for="{{vm.highlights}}" wx:key="l">
+          <view class="v">{{item.v}}</view>
+          <view class="l">{{item.l}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 产品 -->
+  <view wx:if="{{tab === 'products'}}">
+    <view class="section">
+      <view class="section-head">
+        <view class="section-title">{{vm.productsTitle}}<text class="small">{{vm.productsSmall}}</text></view>
+      </view>
+      <view class="product" wx:for="{{vm.products}}" wx:key="id" data-id="{{item.id}}" bindtap="goPay">
+        <view class="product-art tone-{{item.tone}}">{{item.glyph}}</view>
+        <view class="product-main">
+          <view class="product-name">{{item.name}}</view>
+          <view class="product-desc">{{item.desc}}</view>
+          <view class="product-foot">
+            <text class="price">{{item.price}}</text>
+            <text class="mini-btn">{{item.badge}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 案例 -->
+  <view wx:if="{{tab === 'cases'}}">
+    <view class="section">
+      <view class="section-head">
+        <view class="section-title">{{vm.casesTitle}}<text class="small">{{vm.casesSmall}}</text></view>
+      </view>
+      <view class="case" wx:for="{{vm.cases}}" wx:key="id" data-index="{{index}}" bindtap="openCase">
+        <view class="case-top">
+          <text class="metric">{{item.metric}}</text>
+          <text class="metric-label">{{item.metricLabel}}</text>
+        </view>
+        <view class="case-title">{{item.title}}</view>
+        <view class="case-desc">{{item.desc}}</view>
+        <view class="case-tags">
+          <text class="case-tag" wx:for="{{item.tags}}" wx:for-item="tg" wx:key="*this">{{tg}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 资质 -->
+  <view wx:if="{{tab === 'certs'}}">
+    <view class="section">
+      <view class="section-head">
+        <view class="section-title">{{vm.certsTitle}}<text class="small">{{vm.certsSmall}}</text></view>
+      </view>
+      <view class="cert" wx:for="{{vm.certs}}" wx:key="title">
+        <view class="cert-ico">{{item.icon}}</view>
+        <view>
+          <view class="cert-title">{{item.title}}</view>
+          <view class="cert-sub">{{item.sub}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 视频 -->
+  <view wx:if="{{tab === 'videos'}}">
+    <view class="section">
+      <view class="section-head">
+        <view class="section-title">{{vm.videosTitle}}<text class="small">{{vm.videosSmall}}</text></view>
+      </view>
+      <view class="video-row" wx:for="{{vm.videos}}" wx:key="id" bindtap="openVideo">
+        <view class="video-thumb tone-{{item.tone}}"><view class="play">▶</view></view>
+        <view class="video-meta">
+          <view class="video-title">{{item.title}}</view>
+          <view class="video-sub">{{item.duration}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 自定义菜单 -->
+  <view class="section">
+    <view class="section-head">
+      <view class="section-title">{{vm.menuTitle}}</view>
+    </view>
+    <view class="menu-item" wx:for="{{vm.menu}}" wx:key="id" data-index="{{index}}" bindtap="openMenu">
+      <view>
+        <view class="menu-title">{{item.label}}</view>
+        <view class="menu-sub">{{item.desc}}</view>
+      </view>
+      <text class="arrow">›</text>
+    </view>
+  </view>
+
+  <view class="footer">{{vm.footer}}</view>
+
+  <view class="bottom-bar">
+    <view class="nav-item" bindtap="backTop">
+      <text class="ni">名</text><text>{{vm.nav.card}}</text>
+    </view>
+    <view class="nav-item" bindtap="scrollToContent">
+      <text class="ni">内</text><text>{{vm.nav.content}}</text>
+    </view>
+    <view class="nav-item nav-ai" bindtap="goChat">
+      <view class="ni">AI</view><text>{{vm.nav.ai}}</text>
+    </view>
+    <view class="nav-item" bindtap="goBooking">
+      <text class="ni">约</text><text>{{vm.nav.book}}</text>
+    </view>
+  </view>
+</view>
+
+<view class="page" wx:else>
+  <view class="footer">加载中…</view>
+</view>

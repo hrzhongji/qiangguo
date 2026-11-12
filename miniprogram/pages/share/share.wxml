@@ -1,0 +1,15 @@
+<view class="qr-card">
+  <image src="{{qr}}" mode="widthFix" show-menu-by-longpress="{{true}}" />
+  <view class="qr-title">{{vm.title}}</view>
+  <view class="qr-text">{{vm.scanTip}}</view>
+</view>
+
+<view class="share-actions">
+  <view class="submit" bindtap="copyLink">{{vm.copy}}</view>
+  <view class="submit plain" style="margin-top: 16rpx" bindtap="saveQr">{{vm.saveQr}}</view>
+</view>
+
+<view class="nfc-card">
+  <view class="nfc-title">NFC · {{vm.title}}</view>
+  <view class="nfc-text">{{vm.nfcTip}}</view>
+</view>
