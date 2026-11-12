@@ -1,0 +1,1277 @@
+{
+  "meta": {
+    "createdAt": 1794467399196,
+    "version": 1
+  },
+  "card": {
+    "slug": "shenzhiyuan",
+    "owner": {
+      "name": "沈知远",
+      "nameEn": "Shen Zhiyuan",
+      "title": "智能制造解决方案总监",
+      "titleEn": "Director, Smart Manufacturing Solutions",
+      "company": "澄明科技",
+      "companyEn": "CHENGMING TECH",
+      "avatarText": "沈",
+      "phone": "138 1688 0326",
+      "email": "zhiyuan.shen@chengming.tech",
+      "wechat": "zhiyuan_cm",
+      "city": "苏州 · 上海",
+      "cityEn": "Suzhou · Shanghai"
+    },
+    "formerOwner": null,
+    "inheritedAt": null,
+    "stats": {
+      "views": 2486,
+      "connections": 318,
+      "rating": 4.9
+    },
+    "tags": [
+      {
+        "zh": "智能制造",
+        "en": "Smart Manufacturing"
+      },
+      {
+        "zh": "降本增效",
+        "en": "Cost Reduction"
+      },
+      {
+        "zh": "出海交付",
+        "en": "Global Delivery"
+      }
+    ],
+    "bio": {
+      "zh": "在制造业一线做了 12 年数字化落地。我帮工厂把「看不见的浪费」变成可量化的数据：一条产线、一套系统、一支能陪跑的团队。如果你的工厂正卡在产能、能耗或交付上，欢迎直接和我的数字分身聊聊——它读过我全部的项目笔记。",
+      "en": "12 years on the factory floor turning invisible waste into measurable data — one line, one system, one team that stays. If capacity, energy or delivery is your bottleneck, talk to my digital twin. It has read every project note I have."
+    },
+    "highlights": [
+      {
+        "value": "12年",
+        "valueEn": "12 yrs",
+        "label": "制造业一线",
+        "labelEn": "On the floor"
+      },
+      {
+        "value": "120+",
+        "valueEn": "120+",
+        "label": "服务工厂",
+        "labelEn": "Factories"
+      },
+      {
+        "value": "23%",
+        "valueEn": "23%",
+        "label": "最高综合降本",
+        "labelEn": "Cost cut"
+      }
+    ],
+    "menu": [
+      {
+        "id": "site",
+        "label": "官方网站",
+        "labelEn": "Website",
+        "icon": "globe",
+        "url": "https://chengming.example.com",
+        "desc": "公司与解决方案总览",
+        "descEn": "Company & solutions"
+      },
+      {
+        "id": "deck",
+        "label": "产品图册",
+        "labelEn": "Product deck",
+        "icon": "book",
+        "url": "https://chengming.example.com/deck",
+        "desc": "2026 智能制造产品册",
+        "descEn": "2026 solution deck"
+      },
+      {
+        "id": "event",
+        "label": "活动报名",
+        "labelEn": "Events",
+        "icon": "calendar",
+        "url": "https://chengming.example.com/events",
+        "desc": "11 月工厂降本闭门会",
+        "descEn": "Nov factory cost workshop"
+      },
+      {
+        "id": "miniapp",
+        "label": "微信小程序",
+        "labelEn": "Mini Program",
+        "icon": "wechat",
+        "url": "#miniapp",
+        "desc": "在微信内打开完整名片",
+        "descEn": "Open in WeChat"
+      }
+    ],
+    "content": {
+      "intro": {
+        "zh": "澄明科技成立于 2016 年，专注离散制造的数字孪生与能耗优化。我们不卖「大而全」的系统，而是用 4–6 周先跑通一条产线，用数据证明价值，再逐步复制。",
+        "en": "Founded in 2016, CHENGMING focuses on digital twins and energy optimisation for discrete manufacturing. We do not sell one-size-fits-all platforms — we prove value on one line in 4–6 weeks, then scale."
+      },
+      "products": [
+        {
+          "id": "twinline",
+          "name": "TwinLine 产线数字孪生",
+          "nameEn": "TwinLine Digital Twin",
+          "desc": "3D 还原产线节拍，提前发现瓶颈与空转浪费。",
+          "descEn": "A 3D replica of your line rhythm, exposing bottlenecks before they cost you.",
+          "price": "¥28.8 万起",
+          "priceEn": "from ¥288k",
+          "badge": "旗舰",
+          "badgeEn": "Flagship",
+          "icon": "cube",
+          "tone": "orange",
+          "featured": true
+        },
+        {
+          "id": "ecopilot",
+          "name": "EcoPilot 能耗优化",
+          "nameEn": "EcoPilot Energy AI",
+          "desc": "重点设备能耗实时监测，AI 给出可执行的调优建议。",
+          "descEn": "Real-time energy monitoring with AI actions your shift team can actually run.",
+          "price": "¥12.6 万起",
+          "priceEn": "from ¥126k",
+          "badge": "高回报",
+          "badgeEn": "Fast ROI",
+          "icon": "bolt",
+          "tone": "green",
+          "featured": true
+        },
+        {
+          "id": "flowmes",
+          "name": "FlowMES 轻量版",
+          "nameEn": "FlowMES Lite",
+          "desc": "4 周上线，为 50–300 人的工厂准备的 MES。",
+          "descEn": "Live in 4 weeks, built for factories of 50–300 people.",
+          "price": "¥6.8 万起",
+          "priceEn": "from ¥68k",
+          "badge": "快上线",
+          "badgeEn": "Fast go-live",
+          "icon": "layers",
+          "tone": "blue",
+          "featured": false
+        },
+        {
+          "id": "global",
+          "name": "出海交付陪跑",
+          "nameEn": "Global Delivery",
+          "desc": "越南 / 泰国 / 印尼工厂落地，中英越三语交付。",
+          "descEn": "Vietnam, Thailand and Indonesia roll-outs with CN / EN / VN delivery.",
+          "price": "按项目定制",
+          "priceEn": "Custom",
+          "badge": "跨境",
+          "badgeEn": "Cross-border",
+          "icon": "globe",
+          "tone": "ink",
+          "featured": false
+        }
+      ],
+      "cases": [
+        {
+          "id": "suzhou",
+          "metric": "23%",
+          "metricLabel": "综合成本下降",
+          "metricLabelEn": "lower total cost",
+          "title": "苏州精密制造 · 6 个月降本 23%",
+          "titleEn": "Suzhou Precision · 23% lower cost in 6 months",
+          "desc": "3 条产线、480 台设备接入，OEE 从 61% 提升到 78%，库存周转加快 19%。",
+          "descEn": "3 lines, 480 machines connected. OEE 61% → 78%, inventory turns up 19%.",
+          "tags": [
+            "降本",
+            "数字孪生"
+          ],
+          "tagsEn": [
+            "Cost",
+            "Digital twin"
+          ],
+          "tone": "orange",
+          "industry": "manufacturing",
+          "duration": "6 个月",
+          "durationEn": "6 months"
+        },
+        {
+          "id": "ningbo",
+          "metric": "17%",
+          "metricLabel": "单厂能耗下降",
+          "metricLabelEn": "lower energy use",
+          "title": "宁波注塑集团 · 年省电费 420 万",
+          "titleEn": "Ningbo Injection · ¥4.2M saved per year",
+          "desc": "12 个车间、86 台高耗能设备实时监测，空压与注塑环节调优。",
+          "descEn": "12 workshops and 86 energy-heavy machines monitored; compressed air and moulding optimised.",
+          "tags": [
+            "能耗",
+            "高回报"
+          ],
+          "tagsEn": [
+            "Energy",
+            "ROI"
+          ],
+          "tone": "green",
+          "industry": "manufacturing",
+          "duration": "4 个月",
+          "durationEn": "4 months"
+        },
+        {
+          "id": "vietnam",
+          "metric": "4周",
+          "metricLabel": "完成 MES 上线",
+          "metricLabelEn": "to MES go-live",
+          "title": "越南电子厂 · 中越双语交付",
+          "titleEn": "Vietnam Electronics · bilingual delivery",
+          "desc": "跨时区远程 + 驻场结合，良率提升 5.2%，交付周期缩短 11%。",
+          "descEn": "Remote plus on-site delivery across time zones. Yield +5.2%, lead time −11%.",
+          "tags": [
+            "出海",
+            "MES"
+          ],
+          "tagsEn": [
+            "Global",
+            "MES"
+          ],
+          "tone": "blue",
+          "industry": "overseas",
+          "duration": "4 周",
+          "durationEn": "4 weeks"
+        }
+      ],
+      "certificates": [
+        {
+          "id": "iso",
+          "title": "ISO 9001",
+          "sub": "质量管理体系认证",
+          "subEn": "Quality management",
+          "icon": "shield"
+        },
+        {
+          "id": "hitech",
+          "title": "国家高新技术企业",
+          "sub": "2023–2026",
+          "subEn": "High-tech enterprise",
+          "icon": "star"
+        },
+        {
+          "id": "aaa",
+          "title": "AAA 级供应商",
+          "sub": "智能制造解决方案",
+          "subEn": "Solution provider",
+          "icon": "award"
+        },
+        {
+          "id": "ip",
+          "title": "12 项软件著作权",
+          "sub": "核心算法自研",
+          "subEn": "Proprietary algorithms",
+          "icon": "file"
+        }
+      ],
+      "videos": [
+        {
+          "id": "v1",
+          "title": "3 分钟看懂产线数字孪生",
+          "titleEn": "Digital twin in 3 minutes",
+          "duration": "03:12",
+          "tone": "orange"
+        },
+        {
+          "id": "v2",
+          "title": "苏州工厂实地回访",
+          "titleEn": "Suzhou factory revisit",
+          "duration": "05:48",
+          "tone": "ink"
+        },
+        {
+          "id": "v3",
+          "title": "东南亚交付日记",
+          "titleEn": "SE Asia delivery diary",
+          "duration": "02:36",
+          "tone": "blue"
+        }
+      ]
+    },
+    "statsNote": "本月名片被查看 2,486 次 · 318 位访客建立连接"
+  },
+  "persona": {
+    "name": "知远 · 数字分身",
+    "tone": "专业、直接、像一个懂工厂的老朋友",
+    "greeting": {
+      "zh": "你好，我是沈知远的 AI 数字分身。我看过他 47 个项目的复盘笔记，关于产线降本、能耗优化和出海交付，都可以直接问我。",
+      "en": "Hi, I am the AI digital twin of Shen Zhiyuan. I have read all 47 of his project reviews. Ask me anything about cost reduction, energy optimisation or global delivery."
+    },
+    "voiceCloned": true,
+    "voiceSimilarity": 96.2,
+    "skills": [
+      "产线诊断",
+      "方案报价",
+      "案例匹配",
+      "预约安排"
+    ],
+    "knowledge": [
+      {
+        "id": "kb_company",
+        "title": "公司介绍",
+        "titleEn": "Company overview",
+        "category": "公司",
+        "content": "澄明科技成立于 2016 年，总部苏州，在上海、深圳、胡志明市设有交付团队。累计服务 120+ 家制造企业，聚焦离散制造的数字孪生、能耗优化与轻量 MES。",
+        "contentEn": "CHENGMING was founded in 2016, headquartered in Suzhou with delivery teams in Shanghai, Shenzhen and Ho Chi Minh City. 120+ manufacturers served, focused on digital twins, energy optimisation and lightweight MES.",
+        "keywords": [
+          "公司",
+          "介绍",
+          "澄明",
+          "团队",
+          "company",
+          "about",
+          "who"
+        ]
+      },
+      {
+        "id": "kb_twin",
+        "title": "TwinLine 产线数字孪生",
+        "titleEn": "TwinLine digital twin",
+        "category": "产品",
+        "content": "TwinLine 用 3D 孪生还原产线节拍与物流路径，接入 PLC / 传感器数据，提前定位瓶颈、空转和换型浪费。标准交付 4–6 周，价格 28.8 万起。",
+        "contentEn": "TwinLine replicates line rhythm and material flow in 3D, connecting PLC and sensor data to expose bottlenecks, idle time and changeover waste. Standard delivery 4–6 weeks, from ¥288k.",
+        "keywords": [
+          "数字孪生",
+          "TwinLine",
+          "产线",
+          "瓶颈",
+          "3D",
+          "digital twin",
+          "line",
+          "bottleneck"
+        ]
+      },
+      {
+        "id": "kb_eco",
+        "title": "EcoPilot 能耗优化",
+        "titleEn": "EcoPilot energy",
+        "category": "产品",
+        "content": "EcoPilot 对空压、注塑、制冷等高耗能环节做分钟级监测，AI 给出调优建议。平均节能 12–18%，通常 8–14 个月回本，价格 12.6 万起。",
+        "contentEn": "EcoPilot monitors compressed air, moulding and cooling at minute-level, with AI tuning actions. Average 12–18% energy savings, payback in 8–14 months, from ¥126k.",
+        "keywords": [
+          "能耗",
+          "节能",
+          "电费",
+          "空压",
+          "注塑",
+          "energy",
+          "saving",
+          "electricity",
+          "EcoPilot"
+        ]
+      },
+      {
+        "id": "kb_mes",
+        "title": "FlowMES 轻量版",
+        "titleEn": "FlowMES Lite",
+        "category": "产品",
+        "content": "FlowMES 面向 50–300 人的中小工厂，4 周上线，覆盖工单、报工、质检、追溯。支持中英双语，价格 6.8 万起。",
+        "contentEn": "FlowMES targets factories of 50–300 people, live in 4 weeks, covering work orders, reporting, quality and traceability. Bilingual, from ¥68k.",
+        "keywords": [
+          "MES",
+          "工单",
+          "报工",
+          "质检",
+          "追溯",
+          "FlowMES",
+          "lightweight"
+        ]
+      },
+      {
+        "id": "kb_case_sz",
+        "title": "苏州精密制造降本案例",
+        "titleEn": "Suzhou precision cost case",
+        "category": "案例",
+        "content": "苏州精密制造客户：3 条产线、480 台设备，6 个月综合成本下降 23%，OEE 从 61% 提升至 78%，库存周转加快 19%。项目分三期，首期 5 周上线。",
+        "contentEn": "Suzhou precision manufacturer: 3 lines, 480 machines, 23% lower total cost in 6 months, OEE 61% to 78%, inventory turns +19%. Delivered in three phases, first live in 5 weeks.",
+        "keywords": [
+          "苏州",
+          "精密",
+          "降本",
+          "23%",
+          "OEE",
+          "案例",
+          "case",
+          "suzhou",
+          "cost"
+        ]
+      },
+      {
+        "id": "kb_case_nb",
+        "title": "宁波注塑能耗案例",
+        "titleEn": "Ningbo injection energy case",
+        "category": "案例",
+        "content": "宁波注塑集团：12 个车间、86 台高耗能设备接入 EcoPilot，单厂能耗下降 17%，年省电费 420 万元，4 个月完成。",
+        "contentEn": "Ningbo injection group: 12 workshops, 86 heavy machines on EcoPilot, 17% lower plant energy, ¥4.2M annual savings, delivered in 4 months.",
+        "keywords": [
+          "宁波",
+          "注塑",
+          "能耗",
+          "17%",
+          "420",
+          "ningbo",
+          "energy"
+        ]
+      },
+      {
+        "id": "kb_price",
+        "title": "报价与交付周期",
+        "titleEn": "Pricing & timeline",
+        "category": "商务",
+        "content": "典型项目 28–45 万，按诊断、试点、复制三期交付。首期通常 4–6 周。支持按单条产线试点，试点费用可抵扣后续合同。",
+        "contentEn": "Typical projects run ¥280k–450k, delivered in three phases: diagnosis, pilot, scale. First phase usually 4–6 weeks. Single-line pilots available and credited to the full contract.",
+        "keywords": [
+          "报价",
+          "价格",
+          "多少钱",
+          "预算",
+          "费用",
+          "周期",
+          "交付",
+          "price",
+          "cost",
+          "quote",
+          "budget",
+          "timeline"
+        ]
+      },
+      {
+        "id": "kb_book",
+        "title": "免费产线诊断与预约",
+        "titleEn": "Free line diagnosis",
+        "category": "商务",
+        "content": "每周二、周四下午提供 30 分钟免费产线诊断，线上或到厂均可。建议提前准备产能、能耗、OEE 三组数据，诊断后 48 小时内给出初步建议书。",
+        "contentEn": "Free 30-minute line diagnosis every Tuesday and Thursday afternoon, online or on-site. Bring capacity, energy and OEE data; a preliminary proposal follows within 48 hours.",
+        "keywords": [
+          "预约",
+          "诊断",
+          "见面",
+          "拜访",
+          "时间",
+          "book",
+          "meeting",
+          "diagnosis",
+          "visit"
+        ]
+      },
+      {
+        "id": "kb_global",
+        "title": "出海与多语言交付",
+        "titleEn": "Global & multilingual delivery",
+        "category": "出海",
+        "content": "在越南、泰国、印尼交付过 17 个项目，团队支持中文、英文、越南语。可处理跨境合同与付款，支持独立站与微信生态双入口。",
+        "contentEn": "17 projects delivered across Vietnam, Thailand and Indonesia, with CN / EN / VN teams. Cross-border contracts and payments supported, plus standalone and WeChat entry points.",
+        "keywords": [
+          "出海",
+          "越南",
+          "泰国",
+          "印尼",
+          "跨境",
+          "多语言",
+          "global",
+          "vietnam",
+          "overseas",
+          "cross-border"
+        ]
+      },
+      {
+        "id": "kb_trust",
+        "title": "资质与售后",
+        "titleEn": "Credentials & support",
+        "category": "公司",
+        "content": "ISO 9001、国家高新技术企业、智能制造 AAA 级供应商、12 项软件著作权。项目上线后 7×24 响应，季度回访。",
+        "contentEn": "ISO 9001, national high-tech enterprise, AAA smart manufacturing supplier, 12 software copyrights. 7×24 support and quarterly reviews after go-live.",
+        "keywords": [
+          "资质",
+          "证书",
+          "售后",
+          "服务",
+          "ISO",
+          "专利",
+          "credential",
+          "support",
+          "certificate"
+        ]
+      }
+    ]
+  },
+  "team": [
+    {
+      "id": "t_shen",
+      "name": "沈知远",
+      "title": "智能制造解决方案总监",
+      "role": "owner",
+      "status": "active",
+      "city": "苏州",
+      "clients": 86,
+      "color": "#FF5A1F",
+      "cardSlug": "shenzhiyuan",
+      "owner": true
+    },
+    {
+      "id": "t_gu",
+      "name": "顾清",
+      "title": "华东销售负责人",
+      "role": "sales",
+      "status": "active",
+      "city": "上海",
+      "clients": 64,
+      "color": "#2E7D5B",
+      "cardSlug": "guqing"
+    },
+    {
+      "id": "t_tang",
+      "name": "唐亦然",
+      "title": "海外交付经理",
+      "role": "delivery",
+      "status": "active",
+      "city": "胡志明",
+      "clients": 31,
+      "color": "#2B5F8A",
+      "cardSlug": "tangyiran"
+    },
+    {
+      "id": "t_zhou",
+      "name": "周牧",
+      "title": "海外业务经理",
+      "role": "sales",
+      "status": "left",
+      "city": "深圳",
+      "clients": 38,
+      "color": "#8A6A2F",
+      "cardSlug": "zhoumu",
+      "leftAt": 1793430599196
+    }
+  ],
+  "visitors": [
+    {
+      "id": "v_3hvaunr",
+      "name": "新访客",
+      "company": "未填写公司",
+      "role": "访客",
+      "source": "名片链接",
+      "city": "未知",
+      "profile": "manufacturing",
+      "avatarColor": "#2B5F8A",
+      "firstSeen": 1794467500723,
+      "lastSeen": 1794467500723,
+      "visits": 1,
+      "score": 10,
+      "level": "C",
+      "events": [
+        {
+          "ts": 1794467500723,
+          "type": "return",
+          "module": "home",
+          "label": "再次访问名片",
+          "duration": 0,
+          "delta": 10
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "v_zhangming",
+      "name": "张明",
+      "company": "苏州精密制造",
+      "role": "生产总监",
+      "source": "名片二维码",
+      "city": "苏州",
+      "profile": "manufacturing",
+      "avatarColor": "#FF5A1F",
+      "firstSeen": 1794035399196,
+      "lastSeen": 1794467159196,
+      "visits": 3,
+      "score": 86,
+      "level": "A",
+      "events": [
+        {
+          "ts": 1793948999196,
+          "type": "view",
+          "module": "home",
+          "label": "打开名片",
+          "duration": 0
+        },
+        {
+          "ts": 1794035399196,
+          "type": "dwell",
+          "module": "intro",
+          "label": "阅读个人简介",
+          "duration": 46
+        },
+        {
+          "ts": 1794208199196,
+          "type": "module",
+          "module": "case",
+          "label": "苏州降本案例",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "view",
+          "module": "home",
+          "label": "再次访问",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "dwell",
+          "module": "case",
+          "label": "苏州降本案例",
+          "duration": 320
+        },
+        {
+          "ts": 1794465599196,
+          "type": "module",
+          "module": "case",
+          "label": "苏州降本案例",
+          "duration": 0
+        },
+        {
+          "ts": 1794466679196,
+          "type": "dwell",
+          "module": "case",
+          "label": "苏州降本案例",
+          "duration": 110
+        },
+        {
+          "ts": 1794466199196,
+          "type": "chat",
+          "module": "ai",
+          "label": "与 AI 分身对话",
+          "duration": 0
+        },
+        {
+          "ts": 1794466319196,
+          "type": "lead",
+          "module": "lead",
+          "label": "留下联系方式",
+          "duration": 0
+        }
+      ],
+      "note": "反复查看「成本下降 23%」案例与报价页，已留资。"
+    },
+    {
+      "id": "v_lihui",
+      "name": "李慧",
+      "company": "宁波华塑集团",
+      "role": "设备经理",
+      "source": "名片二维码",
+      "city": "苏州",
+      "profile": "manufacturing",
+      "avatarColor": "#2E7D5B",
+      "firstSeen": 1794121799196,
+      "lastSeen": 1794466319196,
+      "visits": 2,
+      "score": 72,
+      "level": "B",
+      "events": [
+        {
+          "ts": 1793948999196,
+          "type": "view",
+          "module": "home",
+          "label": "打开名片",
+          "duration": 0
+        },
+        {
+          "ts": 1794035399196,
+          "type": "dwell",
+          "module": "intro",
+          "label": "阅读个人简介",
+          "duration": 46
+        },
+        {
+          "ts": 1794208199196,
+          "type": "module",
+          "module": "energy",
+          "label": "能耗优化方案",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "view",
+          "module": "home",
+          "label": "再次访问",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "dwell",
+          "module": "energy",
+          "label": "能耗优化方案",
+          "duration": 260
+        },
+        {
+          "ts": 1794465599196,
+          "type": "module",
+          "module": "energy",
+          "label": "能耗优化方案",
+          "duration": 0
+        },
+        {
+          "ts": 1794466679196,
+          "type": "dwell",
+          "module": "energy",
+          "label": "能耗优化方案",
+          "duration": 110
+        }
+      ],
+      "note": "关注能耗优化，询问了交付周期。"
+    },
+    {
+      "id": "v_nguyen",
+      "name": "Nguyen Van An",
+      "company": "Vinatech 越南",
+      "role": "Plant Manager",
+      "source": "名片二维码",
+      "city": "苏州",
+      "profile": "overseas",
+      "avatarColor": "#2B5F8A",
+      "firstSeen": 1793948999196,
+      "lastSeen": 1794463439196,
+      "visits": 2,
+      "score": 64,
+      "level": "B",
+      "events": [
+        {
+          "ts": 1793948999196,
+          "type": "view",
+          "module": "home",
+          "label": "打开名片",
+          "duration": 0
+        },
+        {
+          "ts": 1794035399196,
+          "type": "dwell",
+          "module": "intro",
+          "label": "阅读个人简介",
+          "duration": 46
+        },
+        {
+          "ts": 1794208199196,
+          "type": "module",
+          "module": "overseas",
+          "label": "出海交付案例",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "view",
+          "module": "home",
+          "label": "再次访问",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "dwell",
+          "module": "overseas",
+          "label": "出海交付案例",
+          "duration": 188
+        },
+        {
+          "ts": 1794465599196,
+          "type": "module",
+          "module": "overseas",
+          "label": "出海交付案例",
+          "duration": 0
+        },
+        {
+          "ts": 1794466679196,
+          "type": "dwell",
+          "module": "overseas",
+          "label": "出海交付案例",
+          "duration": 110
+        }
+      ],
+      "note": "英文浏览为主，关注越南 MES 交付。"
+    },
+    {
+      "id": "v_wangtao",
+      "name": "王涛",
+      "company": "无锡精工",
+      "role": "采购经理",
+      "source": "名片二维码",
+      "city": "苏州",
+      "profile": "manufacturing",
+      "avatarColor": "#8A6A2F",
+      "firstSeen": 1794208199196,
+      "lastSeen": 1794459599196,
+      "visits": 2,
+      "score": 51,
+      "level": "B",
+      "events": [
+        {
+          "ts": 1793948999196,
+          "type": "view",
+          "module": "home",
+          "label": "打开名片",
+          "duration": 0
+        },
+        {
+          "ts": 1794035399196,
+          "type": "dwell",
+          "module": "intro",
+          "label": "阅读个人简介",
+          "duration": 46
+        },
+        {
+          "ts": 1794208199196,
+          "type": "module",
+          "module": "pricing",
+          "label": "产品与报价",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "view",
+          "module": "home",
+          "label": "再次访问",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "dwell",
+          "module": "pricing",
+          "label": "产品与报价",
+          "duration": 142
+        },
+        {
+          "ts": 1794465599196,
+          "type": "module",
+          "module": "pricing",
+          "label": "产品与报价",
+          "duration": 0
+        },
+        {
+          "ts": 1794466679196,
+          "type": "dwell",
+          "module": "pricing",
+          "label": "产品与报价",
+          "duration": 110
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "v_chenlu",
+      "name": "陈露",
+      "company": "远山资本",
+      "role": "投资经理",
+      "source": "名片二维码",
+      "city": "苏州",
+      "profile": "investor",
+      "avatarColor": "#6B5B95",
+      "firstSeen": 1794294599196,
+      "lastSeen": 1794454199196,
+      "visits": 1,
+      "score": 38,
+      "level": "C",
+      "events": [
+        {
+          "ts": 1793948999196,
+          "type": "view",
+          "module": "home",
+          "label": "打开名片",
+          "duration": 0
+        },
+        {
+          "ts": 1794035399196,
+          "type": "dwell",
+          "module": "intro",
+          "label": "阅读个人简介",
+          "duration": 46
+        },
+        {
+          "ts": 1794208199196,
+          "type": "module",
+          "module": "intro",
+          "label": "公司与团队简介",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "view",
+          "module": "home",
+          "label": "再次访问",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "dwell",
+          "module": "intro",
+          "label": "公司与团队简介",
+          "duration": 96
+        },
+        {
+          "ts": 1794465599196,
+          "type": "module",
+          "module": "intro",
+          "label": "公司与团队简介",
+          "duration": 0
+        },
+        {
+          "ts": 1794466679196,
+          "type": "dwell",
+          "module": "intro",
+          "label": "公司与团队简介",
+          "duration": 110
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "v_zhaoqi",
+      "name": "赵启",
+      "company": "常州新材",
+      "role": "总经理",
+      "source": "名片二维码",
+      "city": "苏州",
+      "profile": "manufacturing",
+      "avatarColor": "#7A5C4B",
+      "firstSeen": 1794294599196,
+      "lastSeen": 1794448199196,
+      "visits": 1,
+      "score": 29,
+      "level": "C",
+      "events": [
+        {
+          "ts": 1793948999196,
+          "type": "view",
+          "module": "home",
+          "label": "打开名片",
+          "duration": 0
+        },
+        {
+          "ts": 1794035399196,
+          "type": "dwell",
+          "module": "intro",
+          "label": "阅读个人简介",
+          "duration": 46
+        },
+        {
+          "ts": 1794208199196,
+          "type": "module",
+          "module": "cert",
+          "label": "资质证书",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "view",
+          "module": "home",
+          "label": "再次访问",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "dwell",
+          "module": "cert",
+          "label": "资质证书",
+          "duration": 70
+        },
+        {
+          "ts": 1794465599196,
+          "type": "module",
+          "module": "cert",
+          "label": "资质证书",
+          "duration": 0
+        },
+        {
+          "ts": 1794466679196,
+          "type": "dwell",
+          "module": "cert",
+          "label": "资质证书",
+          "duration": 110
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "v_sunyue",
+      "name": "孙悦",
+      "company": "杭州智造",
+      "role": "工艺工程师",
+      "source": "名片二维码",
+      "city": "苏州",
+      "profile": "manufacturing",
+      "avatarColor": "#3E6B6B",
+      "firstSeen": 1794380999196,
+      "lastSeen": 1794441599196,
+      "visits": 1,
+      "score": 22,
+      "level": "C",
+      "events": [
+        {
+          "ts": 1793948999196,
+          "type": "view",
+          "module": "home",
+          "label": "打开名片",
+          "duration": 0
+        },
+        {
+          "ts": 1794035399196,
+          "type": "dwell",
+          "module": "intro",
+          "label": "阅读个人简介",
+          "duration": 46
+        },
+        {
+          "ts": 1794208199196,
+          "type": "module",
+          "module": "video",
+          "label": "产线数字孪生视频",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "view",
+          "module": "home",
+          "label": "再次访问",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "dwell",
+          "module": "video",
+          "label": "产线数字孪生视频",
+          "duration": 54
+        },
+        {
+          "ts": 1794465599196,
+          "type": "module",
+          "module": "video",
+          "label": "产线数字孪生视频",
+          "duration": 0
+        },
+        {
+          "ts": 1794466679196,
+          "type": "dwell",
+          "module": "video",
+          "label": "产线数字孪生视频",
+          "duration": 110
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "v_zhoukai",
+      "name": "周凯",
+      "company": "昆山模具",
+      "role": "创始人",
+      "source": "名片二维码",
+      "city": "苏州",
+      "profile": "manufacturing",
+      "avatarColor": "#5C5C5C",
+      "firstSeen": 1794380999196,
+      "lastSeen": 1794430199196,
+      "visits": 1,
+      "score": 17,
+      "level": "C",
+      "events": [
+        {
+          "ts": 1793948999196,
+          "type": "view",
+          "module": "home",
+          "label": "打开名片",
+          "duration": 0
+        },
+        {
+          "ts": 1794035399196,
+          "type": "dwell",
+          "module": "intro",
+          "label": "阅读个人简介",
+          "duration": 46
+        },
+        {
+          "ts": 1794208199196,
+          "type": "module",
+          "module": "home",
+          "label": "名片首页",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "view",
+          "module": "home",
+          "label": "再次访问",
+          "duration": 0
+        },
+        {
+          "ts": 1794294599196,
+          "type": "dwell",
+          "module": "home",
+          "label": "名片首页",
+          "duration": 36
+        },
+        {
+          "ts": 1794465599196,
+          "type": "module",
+          "module": "home",
+          "label": "名片首页",
+          "duration": 0
+        },
+        {
+          "ts": 1794466679196,
+          "type": "dwell",
+          "module": "home",
+          "label": "名片首页",
+          "duration": 110
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "leads": [
+    {
+      "id": "l_1",
+      "visitorId": "v_zhangming",
+      "name": "张明",
+      "company": "苏州精密制造",
+      "phone": "139****2210",
+      "need": "三条产线的降本诊断，Q4 想完成试点。",
+      "createdAt": 1794465839196,
+      "status": "new",
+      "score": 86
+    },
+    {
+      "id": "l_2",
+      "visitorId": "v_lihui",
+      "name": "李慧",
+      "company": "宁波华塑集团",
+      "phone": "137****8062",
+      "need": "注塑车间能耗优化报价。",
+      "createdAt": 1794456599196,
+      "status": "following",
+      "score": 72
+    }
+  ],
+  "appointments": [
+    {
+      "id": "a_1",
+      "visitorId": "v_lihui",
+      "name": "李慧",
+      "company": "宁波华塑集团",
+      "date": "11/13",
+      "slot": "14:00",
+      "mode": "线上",
+      "createdAt": 1794452999196,
+      "status": "confirmed"
+    }
+  ],
+  "orders": [
+    {
+      "id": "o_1",
+      "visitorId": "v_nguyen",
+      "name": "Nguyen Van An",
+      "company": "Vinatech 越南",
+      "productId": "global",
+      "productName": "出海交付陪跑 · 诊断包",
+      "amount": 6800,
+      "currency": "CNY",
+      "createdAt": 1794294599196,
+      "status": "paid",
+      "channel": "跨境支付"
+    },
+    {
+      "id": "o_2",
+      "visitorId": "v_wangtao",
+      "name": "王涛",
+      "company": "无锡精工",
+      "productId": "flowmes",
+      "productName": "FlowMES 试点 · 10 用户",
+      "amount": 16800,
+      "currency": "CNY",
+      "createdAt": 1794449399196,
+      "status": "paid",
+      "channel": "微信支付"
+    }
+  ],
+  "chats": {
+    "v_zhangming": [
+      {
+        "role": "user",
+        "content": "你们做过和我们规模差不多的精密制造工厂吗？",
+        "ts": 1794465479196
+      },
+      {
+        "role": "assistant",
+        "content": "做过。苏州有一家精密制造客户和你们很像：3 条产线、480 台设备。6 个月综合成本下降 23%，OEE 从 61% 提升到 78%。他们一开始也只是想解决换型慢的问题。",
+        "ts": 1794465539196
+      }
+    ]
+  },
+  "stats": {
+    "todayViews": 237,
+    "weekViews": 1043,
+    "weekLeads": 43,
+    "liveNow": 3,
+    "heatAlerts": 2,
+    "conversion": 4.2
+  },
+  "trend": [
+    {
+      "date": "11/06",
+      "views": 86,
+      "visitors": 53,
+      "leads": 3,
+      "chats": 7
+    },
+    {
+      "date": "11/07",
+      "views": 112,
+      "visitors": 69,
+      "leads": 5,
+      "chats": 12
+    },
+    {
+      "date": "11/08",
+      "views": 97,
+      "visitors": 60,
+      "leads": 4,
+      "chats": 10
+    },
+    {
+      "date": "11/09",
+      "views": 143,
+      "visitors": 89,
+      "leads": 8,
+      "chats": 19
+    },
+    {
+      "date": "11/10",
+      "views": 168,
+      "visitors": 104,
+      "leads": 9,
+      "chats": 22
+    },
+    {
+      "date": "11/11",
+      "views": 201,
+      "visitors": 125,
+      "leads": 12,
+      "chats": 29
+    },
+    {
+      "date": "11/12",
+      "views": 236,
+      "visitors": 146,
+      "leads": 14,
+      "chats": 34
+    }
+  ],
+  "alerts": [
+    {
+      "id": "al_1",
+      "visitorId": "v_zhangming",
+      "text": "张明 反复查看「苏州降本案例」第 4 次，意向分 86",
+      "ts": 1794467159196,
+      "level": "A"
+    },
+    {
+      "id": "al_2",
+      "visitorId": "v_lihui",
+      "text": "李慧 预约了周四 14:00 的线上诊断",
+      "ts": 1794456599196,
+      "level": "B"
+    }
+  ]
+}

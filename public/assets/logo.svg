@@ -1,0 +1,30 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tile" x1="8" y1="4" x2="58" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#211B16"/>
+      <stop offset="1" stop-color="#0D0B09"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="20" y1="20" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB020"/>
+      <stop offset="0.55" stop-color="#FF6A2B"/>
+      <stop offset="1" stop-color="#F23C14"/>
+    </linearGradient>
+    <linearGradient id="card" x1="14" y1="42" x2="52" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF7EF"/>
+      <stop offset="1" stop-color="#E9DFCE"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#tile)"/>
+  <circle cx="32" cy="35" r="14" fill="url(#sun)"/>
+  <g stroke="#FFC46B" stroke-width="2" stroke-linecap="round" opacity="0.9">
+    <path d="M32 10v5"/>
+    <path d="M18.5 16.5l3.6 3.6"/>
+    <path d="M45.5 16.5l-3.6 3.6"/>
+    <path d="M12 30h5"/>
+    <path d="M47 30h5"/>
+  </g>
+  <rect x="11" y="41" width="42" height="15" rx="4.5" fill="url(#card)"/>
+  <rect x="16.5" y="45" width="12" height="2.4" rx="1.2" fill="#171310" opacity="0.55"/>
+  <rect x="16.5" y="49.5" width="19" height="2.4" rx="1.2" fill="#171310" opacity="0.28"/>
+  <circle cx="46" cy="47.4" r="3.2" fill="#FF5A1F"/>
+</svg>
